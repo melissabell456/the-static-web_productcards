@@ -1,9 +1,9 @@
 /*Each card should take up 30% of the width of the browser window.
-The entire card has a solid 1px border that is lightblue.
-The card title has a dotted 1px border that is lightgray.
-The title and product image are centered.
+.The entire card has a solid 1px border that is lightblue.
+.The card title has a dotted 1px border that is lightgray.
+.The title and product image are centered.
 Notice that the text for the description in the image is justified.
-The text for the product specification details and pricing details is bold.*/
+.The text for the product specification details and pricing details is bold.*/
 
 article {
     width: 30%;
@@ -16,4 +16,13 @@ h2.main {
 }
 section.first div.pic {
     text-align: center;
+}
+section.specifications {
+    font-weight: bold;
+}
+section.pricing {
+    font-weight: bold;
+}
+p.picDescribe {
+    text-align: justify;
 }
